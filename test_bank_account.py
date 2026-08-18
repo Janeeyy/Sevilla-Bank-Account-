@@ -41,13 +41,13 @@ def refuses(action):
 
 
 def after_deposit():
-    account = BankAccount("Juan", 1000)
+    account = BankAccount("Jane", 1000)
     account.deposit(500)
     return account.get_balance()
 
 
 def after_withdraw():
-    account = BankAccount("Juan", 1000)
+    account = BankAccount("Jane", 1000)
     account.withdraw(250)
     return account.get_balance()
 
